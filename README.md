@@ -9,7 +9,6 @@ My portfolio website. Built as a knowledge base queryable through a terminal wit
 ```
 OPENAI_API_KEY=
 OPENAI_ASSISTANT_ID=
-COOKIE_SECRET=
 ```
 
 ### Run
