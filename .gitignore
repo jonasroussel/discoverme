@@ -1,0 +1,21 @@
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+$RECYCLE.BIN/
+
+# Linux
+.Trash-*
+
+# NodeJS
+node_modules/
+npm-debug.log
+
+# Typescript output
+dist/
+
+# Env
+.env

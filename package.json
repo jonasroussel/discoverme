@@ -1,0 +1,34 @@
+{
+	"name": "discoverme",
+	"version": "1.0.0",
+	"author": {
+		"name": "Jonas Roussel",
+		"email": "dev@jonas.bzh",
+		"url": "https://jonas.bzh"
+	},
+	"type": "module",
+	"main": "dist/index.js",
+	"engines": {
+		"node": ">=20",
+		"npm": ">=10"
+	},
+	"scripts": {
+		"dev": "tsup --watch --onSuccess \"node --enable-source-maps --env-file .env .\"",
+		"build": "tsup --minify --clean",
+		"start": "node --enable-source-maps ."
+	},
+	"dependencies": {
+		"@fastify/static": "7.0.4",
+		"@fastify/websocket": "10.0.1",
+		"fastify": "4.28.1",
+		"openai": "4.52.7"
+	},
+	"devDependencies": {
+		"@types/node": "20.14.10",
+		"@types/ws": "8.5.11",
+		"pino-pretty": "11.2.1",
+		"prettier": "3.3.3",
+		"tsup": "8.1.0",
+		"typescript": "5.5.3"
+	}
+}
