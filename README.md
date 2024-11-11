@@ -1,6 +1,6 @@
 # Discover Me
 
-This is my personal website, built with Astro.
+This is my personal website, built with Astro. Design inspired by [mathix.dev](https://mathix.dev/)
 
 ## Available Commands
 
